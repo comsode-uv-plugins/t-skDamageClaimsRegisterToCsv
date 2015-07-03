@@ -1,9 +1,9 @@
-package eu.comsode.unifiedviews.plugins.extractor.corrector;
+package eu.comsode.unifiedviews.plugins.transformer.corrector;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import eu.comsode.unifiedviews.plugins.extractor.service.Compare;
+import eu.comsode.unifiedviews.plugins.transformer.service.Compare;
 
 public class Corrector {
 

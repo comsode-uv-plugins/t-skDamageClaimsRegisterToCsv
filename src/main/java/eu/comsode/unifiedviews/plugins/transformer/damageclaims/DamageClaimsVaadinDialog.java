@@ -1,4 +1,4 @@
-package eu.comsode.unifiedviews.plugins.extractor.damageclaims;
+package eu.comsode.unifiedviews.plugins.transformer.damageclaims;
 
 import eu.unifiedviews.dpu.config.DPUConfigException;
 import eu.unifiedviews.helpers.dpu.vaadin.dialog.AbstractDialog;

@@ -9,14 +9,14 @@
 		<relativePath />
 	</parent>
 	<groupId>eu.unifiedviews.plugins</groupId>
-	<artifactId>uv-e-ustrednaEvidencia</artifactId>
+	<artifactId>t-skDamageClaimsRegisterToCsv</artifactId>
 	<description>Grab harms caused by government officials.</description>
 	<packaging>bundle</packaging>
 	<version>1.0.0-SNAPSHOT</version>
-	<name>E-UstrednaEvidencia</name>
+	<name>T-SkDamageClaimsRegisterToCsv</name>
 	<properties>
-		<dpu.package>eu.comsode.unifiedviews.plugins.extractor.ue</dpu.package>
-		<dpu.mainClass>UE</dpu.mainClass>
+		<dpu.package>eu.comsode.unifiedviews.plugins.transformer.damageclaims</dpu.package>
+		<dpu.mainClass>DamageClaims</dpu.mainClass>
 	</properties>
 	<dependencies>
 		<!-- UnifiedViews helpers. -->

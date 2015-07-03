@@ -1,4 +1,4 @@
-package eu.comsode.unifiedviews.plugins.extractor.service;
+package eu.comsode.unifiedviews.plugins.transformer.service;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -28,8 +28,8 @@ import technology.tabula.Table;
 import technology.tabula.Utils;
 import technology.tabula.extractors.BasicExtractionAlgorithm;
 import technology.tabula.extractors.SpreadsheetExtractionAlgorithm;
-import eu.comsode.unifiedviews.plugins.extractor.corrector.Corrector;
-import eu.comsode.unifiedviews.plugins.extractor.damageclaims.DamageClaimsConfig_V1;
+import eu.comsode.unifiedviews.plugins.transformer.corrector.Corrector;
+import eu.comsode.unifiedviews.plugins.transformer.damageclaims.DamageClaimsConfig_V1;
 
 public class Tabula {
 	private List<List<String>> data = new ArrayList<>();

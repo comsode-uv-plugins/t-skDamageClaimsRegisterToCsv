@@ -1,6 +1,6 @@
-package eu.comsode.unifiedviews.plugins.extractor.damageclaims;
+package eu.comsode.unifiedviews.plugins.transformer.damageclaims;
 
-import eu.comsode.unifiedviews.plugins.extractor.service.Tabula;
+import eu.comsode.unifiedviews.plugins.transformer.service.Tabula;
 import eu.unifiedviews.dataunit.DataUnit;
 import eu.unifiedviews.dataunit.files.WritableFilesDataUnit;
 import eu.unifiedviews.dpu.DPU;

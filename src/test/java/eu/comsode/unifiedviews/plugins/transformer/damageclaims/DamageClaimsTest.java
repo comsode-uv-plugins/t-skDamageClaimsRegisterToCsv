@@ -1,4 +1,4 @@
-package eu.comsode.unifiedviews.plugins.extractor.damageclaims;
+package eu.comsode.unifiedviews.plugins.transformer.damageclaims;
 
 import static org.junit.Assert.assertTrue;
 
@@ -9,6 +9,8 @@ import java.io.FileReader;
 import org.junit.Test;
 
 import cz.cuni.mff.xrg.odcs.dpu.test.TestEnvironment;
+import eu.comsode.unifiedviews.plugins.transformer.damageclaims.DamageClaims;
+import eu.comsode.unifiedviews.plugins.transformer.damageclaims.DamageClaimsConfig_V1;
 import eu.unifiedviews.dataunit.files.WritableFilesDataUnit;
 import eu.unifiedviews.helpers.dpu.test.config.ConfigurationBuilder;
 

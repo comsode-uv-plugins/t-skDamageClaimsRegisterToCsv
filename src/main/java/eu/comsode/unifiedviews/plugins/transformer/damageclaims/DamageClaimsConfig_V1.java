@@ -1,4 +1,4 @@
-package eu.comsode.unifiedviews.plugins.extractor.damageclaims;
+package eu.comsode.unifiedviews.plugins.transformer.damageclaims;
 
 public class DamageClaimsConfig_V1 {
     private String fileName = "damage_claims.pdf";

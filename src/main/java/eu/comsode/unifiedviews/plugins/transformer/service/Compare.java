@@ -1,4 +1,4 @@
-package eu.comsode.unifiedviews.plugins.extractor.service;
+package eu.comsode.unifiedviews.plugins.transformer.service;
 
 public class Compare {
 	public static boolean isZIP(String s) {
