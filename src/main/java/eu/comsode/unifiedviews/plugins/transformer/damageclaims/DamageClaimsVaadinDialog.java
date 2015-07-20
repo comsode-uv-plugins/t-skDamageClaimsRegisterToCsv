@@ -1,5 +1,7 @@
 package eu.comsode.unifiedviews.plugins.transformer.damageclaims;
 
+import com.vaadin.ui.VerticalLayout;
+
 import eu.unifiedviews.dpu.config.DPUConfigException;
 import eu.unifiedviews.helpers.dpu.vaadin.dialog.AbstractDialog;
 
@@ -16,6 +18,12 @@ public class DamageClaimsVaadinDialog extends AbstractDialog<DamageClaimsConfig_
 
     @Override
     protected void buildDialogLayout() {
+        VerticalLayout mainLayout = new VerticalLayout();
+        mainLayout.setImmediate(false);
+        mainLayout.setMargin(true);
+        mainLayout.setWidth("100%");
+        mainLayout.setHeight("-1px");
+        setCompositionRoot(mainLayout);
     }
 
     @Override
